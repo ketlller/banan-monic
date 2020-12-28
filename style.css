@@ -1,0 +1,61 @@
+.title{text-align: center;}
+.text-center{text-align: center;}
+.half{max-width:50%;text-align: center;}
+.halfer{display: flex;flex-flow: row;justify-content: space-around;margin: 2% 10%;}
+
+.button1 { position: fixed; bottom: 490px; right: 20px; display: block; background:
+#2db700; color: #fff; text-decoration: none; padding: 6px 23px; font-size: 17px;}
+.button:hover { background: #222; }
+
+
+ 
+
+#n1{ position: fixed; bottom: 545px; left: 20px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #53ed0c;}
+#n2{ position: fixed; bottom: 545px; left: 330px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #ff0808;}
+#n3{ position: fixed; bottom: 545px; left: 465px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #53ed0c;}
+#n4{ position: fixed; bottom: 545px; left: 773px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #ff0808;}
+#n5{ position: fixed; bottom: 545px; left: 909px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #53ed0c;}
+#n6{ position: fixed; bottom: 545px; left: 1220px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #ff0808;}
+
+#out1{ position: fixed; bottom: 490px; left: 465px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #53ed0c;}
+#out2{ position: fixed; bottom: 490px; left: 773px; display: block; padding: 4px;font-size: 14px;width: 110px;border: 3px solid #ff0808;}
+
+ 
+
+
+.button { position: fixed; bottom: 400px; right: 20px;
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #00FF00; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+   }
+
+
+
+#status-block{height: 150px;display: none;}
+
+#min_transaction{padding: 5px;font-size: 14px;width: 40px;border: 1px solid #dbdbdb;}
+
+ 
+#min_transactionss1{ position: fixed; bottom: 455px; left: 350px; display: block; padding: 4px;font-size: 14px;width: 60px;border: 3px solid #53ed0c;}
+#btcalphalivecoin_notificator{ position: fixed; bottom: 446px; left: 380px; display: block; padding: 4px;font-size: 14px;width: 60px;border: 3px solid #53ed0c;}
+
+#min_transactionss2{ position: fixed; bottom: 325px; left: 350px; display: block; padding: 4px;font-size: 14px;width: 60px;border: 3px solid #53ed0c;}
+#btcalphahotbit_notificator{ position: fixed; bottom: 316px; left: 380px; display: block; padding: 4px;font-size: 14px;width: 60px;border: 3px solid #53ed0c;}
+
+#min_transactionss3{ position: fixed; bottom: 455px; left: 773px; display: block; padding: 4px;font-size: 14px;width: 60px;border: 3px solid #53ed0c;}
+#livecoinbtcalpha_notificator{ position: fixed; bottom: 446px; left: 803px; display: block; padding: 4px;font-size: 14px;width: 60px;border: 3px solid #53ed0c;}
+ 
+#min_transactionss4{ position: fixed; bottom: 325px; left: 773px; display: block; padding: 4px;font-size: 14px;width: 60px;border: 3px solid #53ed0c;}
+#livecoinhotbit_notificator{ position: fixed; bottom: 316px; left: 803px; display: block; padding: 4px;font-size: 14px;width: 60px;border: 3px solid #53ed0c;}
+
+#min_transactionss5{ position: fixed; bottom: 455px; left: 1220px; display: block; padding: 4px;font-size: 14px;width: 60px;border: 3px solid #53ed0c;}
+#hotbitbtcalpha_notificator{ position: fixed; bottom: 446px; left: 1250px; display: block; padding: 4px;font-size: 14px;width: 60px;border: 3px solid #53ed0c;}
+ 
+#min_transactionss6{ position: fixed; bottom: 325px; left: 1220px; display: block; padding: 4px;font-size: 14px;width: 60px;border: 3px solid #53ed0c;}
+#hotbitlivecoin_notificator{ position: fixed; bottom: 316px; left: 1250px; display: block; padding: 4px;font-size: 14px;width: 60px;border: 3px solid #53ed0c;}
+
+ 
+

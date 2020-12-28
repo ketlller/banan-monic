@@ -1,0 +1,144 @@
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src='https://code.jquery.com/jquery-latest.js'></script>
+ 
+
+<!--автокликер//-->
+<script>
+$(function() {
+   $('.button').on('click', function() {
+   });
+   var clc = setInterval( function() { $('.button').click(); }, 72000); 
+ });
+</script>
+
+ 
+</head>
+
+<button class='button'>Получить курс</button>
+<body>
+ 
+<div class="div"></span>
+  <span style="color: #008000;"><div class="sell">Торг пара 1 Buy: <span></span></div></span>
+  <span style="color: #FF0000;"> <div class="buy">Торг пара 1 Sell: <span></span></div></span>
+</div>
+ 
+
+<div class="div"></span>
+  <span style="color: #008000;"><div class="sell2">Торг пара 2 Buy <span></span></div></span>
+  <span style="color: #FF0000;"> <div class="buy2">Торг пара 2 Sell: <span></span></div></span>
+ 
+</div>
+
+  
+
+
+ 
+
+
+
+ 
+ 
+ 
+ <div class="div">
+  <div class="inputdrub1">Спред торг пара 1: <span></span>%</div>
+   <div class="inputdrub2">Спред торг пара 2: <span></span>%</div> 
+   
+   
+     <div class="inputdrub2tt">Расхождение 2-1 Buy: <span></span></div>
+     <div class="inputdrub1tt">Расхождение 2-1 Sell: <span></span></div>
+   
+    <p><span style="color: #008000;">Сигнал покупки: <span id="Status_pokypki">---</span> <input type="number" id="11min_transaction11" value=""> 
+Sound  <input type="checkbox" id="pokypka" name="pokypka" checked></p>  </span></span>    
+ 	
+</p>
+   
+   
+    <p><span style="color: #FF0000;">Сигнал продажи: <span id="Status_prodano">---</span> <input type="number" id="22min_transaction22" value="">   
+Sound  <input type="checkbox" id="prodaem" name="prodaem" checked></p>  </span></span>
+</span></span>    
+
+</p>
+
+
+  <div class="text-center"> 
+<br>-------------------------------------------------------------------------------</br> 
+
+    <span style="color: #0000CD;">  <div class="inputdrub3"><span></span>%</div> 1. Профит (ставим <span style="color: #FF0000;">Limit продажу</span> на <span style="color: #008000;">"Торг пару 1 Buy"</span> + по рынку продадим на <span style="color: #FF0000;">"Торг пара 2 Sell"</span>): </span>
+ 
+   <p><span style="color: #0000CD;">Сигнал профита 1: <input type="number" id="1min_transaction1" value="">%   
+Sound  <input type="checkbox" id="1min_transaction11_notificator" name="1min_transaction11_notificator" checked></p>  </span></span></p>  
+   
+
+
+<span style="color: #0000CD;">  <div class="inputdrub3333"><span></span>%</div>  2. Профит (ставим <span style="color: #FF0000;">Limit продажу</span> на <span style="color: #008000;">"Торг пару 2 Buy"</span> + по рынку продадим на <span style="color: #FF0000;">"Торг пара 1 Sell</span>"): </span>
+   
+ <p><span style="color: #0000CD;">Сигнал профита 2: <input type="number" id="1min_transaction1333" value="">%       
+Sound  <input type="checkbox" id="1min_transaction11333_notificator" name="1min_transaction11333_notificator" checked></p>  </span></span></p>     
+   
+   
+   
+      
+
+
+      <span style="color: #FF0000;"><div class="inputdrub4"><span></span>%</div>  3. Профит (продаем по рынку Sell = Торг пара 1 Sell
+ + Торг пара 2 Sell) :  </span>
+ 
+
+<p><span style="color: #FF0000;">   Сигнал профита 3: <input type="number" id="2min_transaction2" value="">%
+
+Sound  <input type="checkbox" id="2min_transaction11_notificator" name="2min_transaction11_notificator" checked> </span></span></p>
+
+  </div>
+
+	<div class="text-center">
+<br>-------------------------------------------------------------------------------</br> 
+ 
+
+ <span style="color: #008000;"> <p><div class="inputdrub111">Профит: <span></span>%. Сигнал Buy 1: <input type="number" id="min_transaction1" value=""> 
+	 Продал по: <input type="number" id="min_transactionss111" value="">    <span id="Status_min_transaction11">---</span>   
+	    
+<span style="color: #008000;"> <p>Sound notification  <input type="checkbox" id="min_transaction11_notificator" name="min_transaction11_notificator" checked></p>  </span>
+		     </div> </p>    </span>
+ 
+  <div class="text-center">
+<span style="color: #FF0000;"> <p><div class="inputdrub222">Профит: <span></span>%. Сигнал Sell 1: <input type="number" id="min_transaction2" value=""> 
+Купил по: <input type="number" id="min_transactionss222" value="">	    <span id="Status_min_transaction22">---</span>
+	
+<span style="color: #FF0000;"> <p>Sound notification  <input type="checkbox" id="min_transaction22_notificator" name="min_transaction22_notificator" checked></p> </span>
+</p> </span>
+</div>
+	
+ 
+ <br>-------------------------------------------------------------------------------</br>   
+
+	<div class="text-center">
+ <span style="color: #008000;"> <p><div class="inputdrub333">Профит: <span></span>%. Сигнал Buy 2: <input type="number" id="min_transaction3" value=""> 
+	 Продал по: <input type="number" id="min_transactionss333" value="">    <span id="Status_min_transaction11">---</span>   
+	    
+<span style="color: #008000;"> <p>Sound notification  <input type="checkbox" id="min_transaction33_notificator" name="min_transaction11_notificator" checked></p>  </span>
+		     </div> </p>    </span> 
+ 
+  <div class="text-center">
+<span style="color: #FF0000;"> <p><div class="inputdrub444">Профит: <span></span>%. Сигнал Sell 2: <input type="number" id="min_transaction4" value=""> 
+Купил по: <input type="number" id="min_transactionss444" value="">	    <span id="Status_min_transaction22">---</span>
+	
+<span style="color: #FF0000;"> <p>Sound notification  <input type="checkbox" id="min_transaction44_notificator" name="min_transaction22_notificator" checked></p> </span>
+</p> </span>
+</div>
+	
+
+
+<br>-------------------------------------------------------------------------------</br>
+
+
+
+
+
+
+
+</body>
+
+
+
+
